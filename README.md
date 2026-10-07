@@ -26,7 +26,7 @@ The patcher supports verified GameAssembly builds only and stops without changin
   - **Level 7:** Healer's Charm (+30 speed, +100 MP) and Deadeye Charm (+50 aim, +15 DEX).
   - **Level 8:** Kleptomaniac's Charm (+30 AGI and its own Rob Blind effect while equipped, stacking separately with the learned ability for up to four independent steal rolls) and Angel's Charm (immunity to all status ailments, including Stop).
   - **Level 9:** Elemental's Charm (absorbs all seven elements).
-  - **Level 10:** Grace of Gods (1,000,000 pg; keeps its wearer at 3 BP and waives BP costs, pausing during the Brave/Default tutorial and resuming afterward).
+  - **Level 10:** Grace of Gods (keeps its wearer at 3 BP and waives BP costs, pausing during the Brave/Default tutorial and resuming afterward).
   - **Level 11:** Charm of Omnipotence (combines the six stat charms, Angel's, and Elemental's effects) and Charm of the Limit Breaker (damage cap of 99,999 without Limit Break or 999,999 with it).
   - **Prices:** Most charms cost 50,000 pg; Charm of Omnipotence and Charm of the Limit Breaker cost 500,000 pg each; Grace of Gods costs 1,000,000 pg.
 - Charm entries reuse built-in dummy rows, keeping the item table within the game's 600-entry runtime limit. This also migrates the earlier 604-row release table back below the game's fixed inventory-array limit.
