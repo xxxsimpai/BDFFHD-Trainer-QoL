@@ -4,8 +4,9 @@ An all-in-one Windows x64 trainer and native game-file patch for **Bravely Defau
 
 The patch applies directly to supported game files without a mod loader, so Steam achievements remain enabled.
 
-## Version 1.2.1
+## Version 1.2.1.1
 
+- Hotfix: Freelancer's Steal command is now available at job level 1.
 - Fixes tab sizing so the main tabs and XP/Job and Stats subtabs stay visible without scroll arrows, including after resizing the overlay.
 - Refreshes the portable and source packages. Run the patcher as Administrator for protected game folders; elevate the trainer only if the game is elevated or it cannot attach.
 
