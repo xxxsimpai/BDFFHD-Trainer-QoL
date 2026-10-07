@@ -7,8 +7,8 @@ The patch applies directly to supported game files without a mod loader, so Stea
 ## Install
 
 1. Extract the Portable ZIP.
-2. Run `BDFFHDNativePatch.exe` once, choose the game's `GameAssembly.dll`, and let it update the game files. It keeps `.bdffhd-backup` copies beside every changed file.
-3. Run `BDFFHDTrainer.exe` when you want the trainer overlay. It attaches to an open game, launches Steam-managed installs through Steam, or directly starts non-Steam installs. It remembers the installation path.
+2. Run `BDFFHDNativePatch.exe` as Administrator (right-click it and choose “Run as administrator”), choose the game's `GameAssembly.dll`, and let it update the game files. This is needed when the game is installed in a protected folder. It keeps `.bdffhd-backup` copies beside every changed file.
+3. Run `BDFFHDTrainer.exe` when you want the trainer overlay. It attaches to an open game, launches Steam-managed installs through Steam, or directly starts non-Steam installs. If the game is running as Administrator or the trainer cannot attach, run `BDFFHDTrainer.exe` as Administrator too. It remembers the installation path.
 
 The native gameplay and QoL changes remain in the game files after installation. After patching, start the game through Steam or launch it with BDFFHDTrainer.exe. The native patcher is not needed during play, and no BepInEx, mod loader, or background patch service is installed. The trainer itself is still required for its live menu and cheats.
 
