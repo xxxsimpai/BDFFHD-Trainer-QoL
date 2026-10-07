@@ -1,0 +1,5 @@
+LIBRARY native_matk_stub
+EXPORTS
+    NativeMatkAdjust
+    ItemTableLookup
+    ItemProperCalc

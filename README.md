@@ -4,11 +4,18 @@ An all-in-one Windows x64 trainer and native game-file patch for **Bravely Defau
 
 The patch applies directly to supported game files without a mod loader, so Steam achievements remain enabled.
 
-## Version 1.2.1.1
+## Version 1.2.2
 
-- Hotfix: Freelancer's Steal command is now available at job level 1.
-- Fixes tab sizing so the main tabs and XP/Job and Stats subtabs stay visible without scroll arrows, including after resizing the overlay.
-- Refreshes the portable and source packages. Run the patcher as Administrator for protected game folders; elevate the trainer only if the game is elevated or it cannot attach.
+- Prevents duplicate key items, asterisks, and character-specific costumes when they are added through the trainer or the game's shared inventory path. Perma-Job Clothes are deliberately excluded; Vestal Garb is protected.
+- Refreshes hidden-menu hotkey toasts immediately when another hotkey is pressed, without an older timer hiding the newest message early.
+- Retains the Freelancer Steal command availability fix from 1.2.1.1. Run the patcher as Administrator for protected game folders; elevate the trainer only if the game is elevated or it cannot attach.
+
+## Downloads
+
+- [Portable package](https://github.com/xxxsimpai/BDFFHD-Trainer-QoL/releases/download/v1.2.2/BDFFHDTrainer-Portable.zip)
+- [Native patch technical notes](https://github.com/xxxsimpai/BDFFHD-Trainer-QoL/releases/download/v1.2.2/BDFFHD-Native-Patch-Technical-Notes.zip)
+- [SHA-256 checksums](https://github.com/xxxsimpai/BDFFHD-Trainer-QoL/releases/download/v1.2.2/SHA256SUMS.txt)
+- **Source:** use GitHub’s automatically generated **Source code (zip)** archive on this release. It contains the tagged source tree; there is no separate source ZIP asset.
 
 ## Install
 

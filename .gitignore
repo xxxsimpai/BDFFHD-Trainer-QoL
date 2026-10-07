@@ -1,0 +1,35 @@
+# Local build output and generated files
+/build/
+/build-vs/
+/.vs/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/Makefile
+/*.sln
+/*.vcxproj*
+/*.pdb
+/*.obj
+/*.ilk
+/*.exp
+/*.lib
+/*.log
+/tools/*.obj
+/tools/*.exp
+/tools/*.lib
+/tools/*.pdb
+/tools/*.ilk
+/tools/*.exe
+/tools/*.dll
+
+# The prebuilt portable binaries stay available locally, but are generated artifacts for source control
+/BDFFHDTrainer.exe
+/bdffhd_payload.dll
+
+# Release packages
+/dist/
+/BDFFHDTrainer-Portable/
+/*.zip
+
+# Machine-specific, one-time maintenance requests
+/trainer-local.ini
